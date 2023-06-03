@@ -5,7 +5,6 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "downloadx"
 authors = [{ name = "ruriazz", email = "azizruri.s@gmail.com" }]
-url = "https://github.com/ruriazz/downloadx"
 classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
@@ -26,3 +25,7 @@ dependencies = {file = ["downloadx/requirements.txt"]}
 
 [tool.setuptools.packages.find]
 exclude = ["tests*", "example*"]
+
+[project.urls]
+"Homepage" = "https://github.com/ruriazz/downloadx"
+"Bug Tracker" = "https://github.com/ruriazz/downloadx/issues"
